@@ -1,15 +1,22 @@
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.20-Beta'
 }
 
 group = 'dev.tu2l.ng'
 version = '1.0-SNAPSHOT'
 
+def githubProperties = new Properties()
+githubProperties.load(new FileInputStream(rootProject.file("scraper-api/github.properties")))
 
 repositories {
     mavenCentral()
     maven {
         url = uri("https://maven.pkg.github.com/tu2l/news-generator")
+        credentials {
+            username = githubProperties['gpr.user'] ?: System.getenv("GPR_USER")
+            password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
+        }
     }
 }
 
@@ -18,8 +25,14 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
     implementation 'dev.tu2l.ng.api:scraper-api:1.0-SNAPSHOT'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation 'org.jsoup:jsoup:1.15.3'
+    implementation 'com.google.code.gson:gson:2.8.9'
 }
 
 test {
     useJUnitPlatform()
+}
+kotlin {
+    jvmToolchain(11)
 }
