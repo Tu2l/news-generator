@@ -5,25 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1985c93-f6c6-4852-9643-7a36c08c1755" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper-api/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/ANINewsUrls.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/models/News.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/scrapers/ANINews.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/scrapers/BaseNewsScraper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/tu2l/ng/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/tu2l/ng/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scraper-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/ANINewsUrls.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/ANINewsUrls.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/models/News.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/models/News.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/scrapers/ANINews.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scraper-api/src/main/java/dev/tu2l/ng/api/scrapers/ANINews.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/tu2l/ng/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,9 +50,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2VFybduqsjz5doOOf8EsIr4zC5m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,13 +64,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.news-generator:scraper-api [:scraper-api:dev.tu2l.ng.api.Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/tutroy/Desktop/Tu2l/AnimeBoya-app",
-    "onboarding.tips.debug.path": "C:/Users/tutroy/Desktop/Tu2l/java projects/news-generator/scraper-api/src/main/java/dev/tu2l/ng/api/Main.java"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/tu2l/Repositories/news-generator/scraper-api",
+    "onboarding.tips.debug.path": "C:/Users/tutroy/Desktop/Tu2l/java projects/news-generator/scraper-api/src/main/java/dev/tu2l/ng/api/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">

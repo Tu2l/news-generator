@@ -1,7 +1,7 @@
 package dev.tu2l.ng.api
 
 class ANINewsUrls {
-    companion object{
+    companion object {
         const val BASE = "https://aninews.in"
 
         /*

@@ -59,7 +59,7 @@ class ANINews:BaseNewsScraper {
 //        var timestamp: String? = article?.select("span[class=time-red")?.text()
 //        timestamp += article?.select("span[class=first red-ist]")?.text()
         news.timestamp = article?.select("p[class=time]")?.text()
-        news.story = article?.select("div[itemprop=articleBody]")?.select("p")?.text()
+        news.story = article?.select("div[class=content count-br]")?.text()
 
         val tags: Elements? = card?.select("div[class=box-tag]")
         var i = 0
